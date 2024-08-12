@@ -10,8 +10,12 @@
         <div class="content">
             <p class="account">Have an account?</p>
             <div class="input-field">
-                <input class="username" type="text" placeholder="Username">
-                <input class="password" type="text" placeholder="Password">
+                <form>
+                    <label for="username"></label>
+                    <input class="username" type="text" id="username" placeholder="Username" required>
+                    <label for="Password"></label>
+                    <input class="password" type="password" id="password" placeholder="password" required>
+                </form>
             </div>
             <div>
                 <button class="signin-button">SIGN IN</button>
